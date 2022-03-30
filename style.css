@@ -1,0 +1,16 @@
+.grid {
+
+    margin-top: 100px;
+    margin-left: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.grid div {
+
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
