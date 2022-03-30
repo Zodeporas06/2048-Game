@@ -12,5 +12,8 @@
 
     width: 100px;
     height: 100px;
-    background-color: darkgoldenrod;
+    background-color: rgb(197, 197, 7);
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
 }
