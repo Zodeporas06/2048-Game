@@ -1,7 +1,7 @@
 # 2048-Game
 An easy 2048 Game on website to have fun.
 
-## Instructions of the Game
+## Instructions
 * Use arrow keys to shift the numbers
 * An extra 2 will be added after every shift
 * Same adjacent numbers will be added
