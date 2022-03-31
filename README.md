@@ -7,6 +7,7 @@ An easy 2048 Game on website to have fun.
 * Same adjacent numbers will be added
 * Reach the sum of 2048 in any possible way 
 * You lose if there is no zero left
+* Refresh the page to restart the game
 * Have fun!
 
 ## Stack Used
