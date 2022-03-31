@@ -1,3 +1,3 @@
 # 2048-Game
 
-Link to the game 
+Get the link to the game [here](https://github.com/sanika30chandode/Noteit) 
