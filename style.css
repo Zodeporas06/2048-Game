@@ -1,19 +1,46 @@
 .grid {
 
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 550px;
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    height: 400px;
+    justify-content: center;
+    align-content: center;
+    width: 420px;
+    height: 420px;
 }
 
 .grid div {
 
+    border: solid;
     width: 100px;
     height: 100px;
-    background-color: rgb(197, 197, 7);
-    font-size: x-large;
+    background-color: rgb(167, 154, 154);
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
+    line-height: 100px;
+}
+
+.header {
+
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    font-style: italic;
+    border-color: black;
+}
+
+.instructions {
+
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#result {
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
 }

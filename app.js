@@ -2,11 +2,9 @@ document.addEventListener(
     'DOMContentLoaded', () => {
 
         const gridDisplay = document.querySelector('.grid')
-        const scoreDisplay = document.getElementById('score')
         const resultDisplay = document.getElementById('result')
 
         let squares = []
-        let score = 0
 
         //create a playing board
         function createBoard() {
@@ -117,9 +115,6 @@ document.addEventListener(
                     let sum = parseInt(squares[i].innerHTML) + parseInt(squares[i+1].innerHTML)
                     squares[i].innerHTML = sum
                     squares[i+1].innerHTML = 0
-
-                    score += sum
-                    scoreDisplay.innerHTML = score
                 }
             }
             checkWin()
@@ -187,9 +182,6 @@ document.addEventListener(
                     let sum = parseInt(squares[i].innerHTML) + parseInt(squares[i+4].innerHTML)
                     squares[i].innerHTML = sum
                     squares[i+4].innerHTML = 0
-
-                    score += sum
-                    scoreDisplay.innerHTML = score
                 }
             }
             checkWin()
@@ -244,11 +236,11 @@ document.addEventListener(
         //check for win
         function checkWin() {
 
-            for(let i=0; i; i++) {
+            for(let i=0; i<16; i++) {
 
                 if(squares[i].innerHTML == 2048) {
 
-                    resultDisplay.innerHTML = 'YOU WIN!!!'
+                    resultDisplay.innerHTML = 'YOU WON!!!'
                     document.removeEventListener('keyup', control)
                 }
             }
